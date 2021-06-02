@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: url(Hello.jpg);
+    background: url(../images/Hello.jpg);
     background-size: 1500px 800px;
     background-repeat: repeat;
     display: flex;
