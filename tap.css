@@ -1,0 +1,162 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    height: 100vh;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-image: url(backg.jpeg);
+    background-size: 1600px 840px;
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    position: relative;
+    box-shadow: 0 4px 6px 0 rgba(0,0,1,0.2);
+
+
+}
+
+.bar {
+    overflow:auto;
+    background-color:none;
+    padding-top: 0%;
+}
+
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgb(1, 42, 83);
+    transition: all ease-in-out .2%;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0 20px;
+    padding-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    text-decoration:none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: rgba(137, 137, 138, 0.3);
+}
+
+
+label.name {
+    color: rgb(255, 255, 255);
+    font-family: apple chancery;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;  
+    
+}
+
+
+.description {
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    margin-top: 16%;
+    margin-left: 39.5%;
+}
+
+.description > h2 {
+    font-family: apple chancery;
+    
+}
+
+
+.about {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.about > h1{
+    text-align: center;
+    font-family: -apple-system, apple chancery;
+}
+
+.about p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project > h1 {
+    text-align: center;
+    font-family: -apple-system, apple chancery;
+    font-style: bold;
+    padding-top: 30px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.image_wrapper {
+    justify-self: center;
+    padding: 4%;
+    position: relative;
+}
+
+
+.projects_image {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,1,0.1);
+    transition: all ease-in .2%;
+}
+
+.projects_image:hover {
+    filter: brightness(0.75);
+    box-shadow: 0 8px 12px 0 rgba(0,0,1,0.8);
+}
+
+.image_wrapper:hover > h3 {
+    visibility: visible;
+}
+
+.image_wrapper > h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    visibility: hidden;
+    z-index: 2;
+    transition: all ease-in-out .2%;
+}
+
+

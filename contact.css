@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url(Hello.jpg);
+    background-size: 1500px 800px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: rgb(12, 11, 11);
+    max-width: 500px;
+    line-height: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.info i {
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 25px;
+    
+}
+
+.info a{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+
+    
+}
+
+.form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.info, .form {
+    flex: 1;
+}
+
+.form h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.text-box {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50%-10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.form, .text-box{
+    margin-right: 15px;
+}
+
+.form textarea{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+
+}
+
+.form .send-btn{
+    float: right;
+    background: rgb(14, 3, 163);
+    color: #fff;
+    border: none;
+    width:120px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.form .send-btn:hover {
+    background: rgba(0, 0, 0, 0.329)
+    
+}

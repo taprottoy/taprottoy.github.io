@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    margin: 0px;
+    padding: 0px;
+    background: rgba(29, 185, 224, 0.3);
+    
+    border: none;
+    box-shadow: none;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 120;
+    margin-left: 40%;
+    padding: 30px;
+    font-family: rubik;
+    
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 50;
+    font-style: normal;
+    padding-left: 80px;
+    padding-right: 20px;
+    
+}
+.layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 80px;
+}
+
+.layout1 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding-left: 60px;  
+}
+
+.para {
+    color: rgb(52, 116, 52);
+    padding-bottom: 80px;
+}
